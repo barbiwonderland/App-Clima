@@ -1,9 +1,11 @@
 
 var resultado = document.querySelector('#resultado')
 function boton(){
+    var myVariable = magicListSelected();
     var  obtenerLocal = document.getElementById("ciudad").value;
+    
     console.log(obtenerLocal);
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${obtenerLocal},ar&appid=a687ddfbd84f3bb1987686df6b594433&units=metric&lang=sp`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${obtenerLocal},${myVariable}&appid=a687ddfbd84f3bb1987686df6b594433&units=metric&lang=sp`)
     .then(response => response.json())
     .then(data => {
          console.log(data);

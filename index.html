@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta name="theme-color" content="#ffffff">    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="index.css">
-
-    <title>Clima en Argentina</title>
+    <title>Clima by barbi</title>
   </head>
   <body>
     <div class="App">
@@ -18,6 +19,8 @@
         <h3> ¿Cómo esta el tiempo?</h3>
        
  <label for="city"> Ciudad</label><input type="text" id="ciudad"name="city">
+<label>Pais (Opcional)</label> <input type="text" id="selectedCountry" list="magicList">
+<datalist id="magicList"> </datalist>
       <button onclick="boton()">Calcular</button>
       <div id="resultado">
 
@@ -30,7 +33,7 @@
   
           </div>
         
-
+<script src="countrycode.js"></script>
           <script src="button.js"></script>
          
   </body>
