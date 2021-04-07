@@ -2,6 +2,8 @@
 Permite conocer el clima, dando la posibilidad de filtrar por Ciudad y País,  mostrando un efecto visual dinamico relacionado a la condición meteorologica de ese momento.
 Apta para moviles y escritorio.
 
+Realizada con JavaScript y API 
+
 ### Enlace a la pagina Web:
 
 
