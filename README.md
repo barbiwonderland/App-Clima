@@ -6,7 +6,7 @@ Integra JavaScript con API
 
 
 
-![image](https://i.postimg.cc/7PG1Y9W4/Captura-de-pantalla-2021-05-25-185508.png)
+![image](https://user-images.githubusercontent.com/66577149/113794210-65f16a80-9720-11eb-8311-2cbec1464906.png)
 
 
 ### Enlace a la pagina Web:
