@@ -4,6 +4,7 @@ body {
   opacity: 0.7; */
   height: 100vh;
 }
+
 .imagen {
   background-color: black;
   height: 100vh;
@@ -12,6 +13,7 @@ body {
 #resultado {
   text-align: center;
 }
+
 input,
 input:active {
   color: black;
@@ -19,6 +21,7 @@ input:active {
   border: none;
   outline: none;
 }
+
 .desc {
   margin-top: 0.5%;
   text-transform: capitalize;
@@ -49,6 +52,7 @@ button {
   margin-bottom: 1%;
   text-align: center;
 }
+
 label {
   display: flex;
   justify-content: center;
@@ -56,20 +60,20 @@ label {
 
   opacity: 0.8;
 }
+
 button {
   background-color: #0f8b90;
   color: white;
 }
+
 .App {
   height: 100vh;
   width: 100vw;
   margin: 0%;
   color: white;
-  background-image: linear-gradient(
-      rgba(22, 20, 20, 0.5),
-      rgba(20, 18, 18, 0.5)
-    ),
-    url(https://www.viajarjamaica.com/img/clima-cuando-viajar-jamaica.jpg);
+  background-image: linear-gradient(rgba(22, 20, 20, 0.5),
+      rgba(20, 18, 18, 0.5)),
+    url("./images/clima-jamaica.jpg");
   z-index: -2;
   background-size: cover;
 }
@@ -77,6 +81,7 @@ button {
 .texto {
   text-align: center;
 }
+
 footer,
 a {
   position: absolute;
@@ -93,6 +98,7 @@ a {
   * {
     font-size: 20px;
   }
+
   button {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -102,18 +108,22 @@ a {
     margin-bottom: 10%;
     font-size: 25px;
   }
+
   .desc,
   p {
     font-size: 20px;
   }
+
   #resultado,
   h3 {
     margin-bottom: 1% !important;
     font-size: 32px !important;
   }
+
   #resultado {
     margin-top: 5%;
   }
+
   body {
     height: 100vh;
     padding-bottom: 0;
